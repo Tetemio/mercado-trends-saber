@@ -223,7 +223,7 @@ const Trends = () => {
                     <SelectValue placeholder="Selecione uma categoria" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">Todas as categorias</SelectItem>
+                    <SelectItem value="all">Todas as categorias</SelectItem>
                     {categories.map((category) => (
                       <SelectItem key={category} value={category.toLowerCase()}>
                         {category}
